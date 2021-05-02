@@ -1,8 +1,8 @@
 # A PowerShell script for getting an OAuth code URL from Google
 
 # Please obtained ClientID and Client Secret from the GCP console.
-$clientId = "548550014762-oig1e6mvbqko15bkbrb39e9on1eqadsh.apps.googleusercontent.com"
-$clientSecret = "-UIyUTFlqsKEZ3-3Hl3Oi9mM"
+$clientId = "<your client Id>"
+$clientSecret = "<your client secret>"
 $redirectUrl = "http://127.0.0.1/"
 
 
