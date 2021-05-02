@@ -1,0 +1,20 @@
+{
+    "name": "GoogleBigQueryLinkedService",
+    "properties": {
+        "type": "GoogleBigQuery",
+        "typeProperties": {
+            "project" : "azure-data-source",
+            "requestGoogleDriveScope" : true,
+            "authenticationType" : "UserAuthentication",
+            "clientId": "548550014762-oig1e6mvbqko15bkbrb39e9on1eqadsh.apps.googleusercontent.com",
+            "clientSecret": {
+                "type": "SecureString",
+                "value":"-UIyUTFlqsKEZ3-3Hl3Oi9mM"
+            },
+            "refreshToken": {
+                "type": "SecureString",
+                "value": "1//04mc7m8hOtflZCgYIARAAGAQSNwF-L9Ir297AMJ-B7117A2kQuNNZWvqFeGJW6NwhBwcg1DYmbW-wWuCTsmeDMptGIR6uNRLuH1U"
+            }
+        }
+    }
+}
